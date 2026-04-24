@@ -10,6 +10,8 @@
 
 [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) (34k+ ⭐) indexes skills for every major AI coding tool. GitHub Copilot was the one tool with no installer. `copilot-skills` fills that gap.
 
+![demo](assets/demo.gif)
+
 ```sh
 npx copilot-skills add brainstorming
 npx copilot-skills add openai:gh-address-comments
