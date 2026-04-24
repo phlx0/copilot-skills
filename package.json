@@ -1,0 +1,47 @@
+{
+    "name": "copilot-skills",
+    "version": "1.0.0",
+    "description": "Install and manage AI agent skills for GitHub Copilot",
+    "type": "module",
+    "author": "phlx0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/phlx0/copilot-skills.git"
+    },
+    "homepage": "https://github.com/phlx0/copilot-skills#readme",
+    "bugs": {
+        "url": "https://github.com/phlx0/copilot-skills/issues"
+    },
+    "bin": {
+        "copilot-skills": "./bin/copilot-skills.js"
+    },
+    "files": [
+        "bin/",
+        "src/",
+        "README.md",
+        "LICENSE"
+    ],
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "test": "node --test"
+    },
+    "keywords": [
+        "github-copilot",
+        "claude-code",
+        "gemini-cli",
+        "ai-agent",
+        "skills",
+        "skill-md",
+        "developer-tools",
+        "mcp"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "commander": "^12.1.0",
+        "js-yaml": "^4.1.0",
+        "ora": "^8.1.0"
+    }
+}

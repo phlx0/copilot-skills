@@ -1,0 +1,7 @@
+.github/
+test/
+*.test.js
+*.spec.js
+.env
+.env.*
+coverage/
